@@ -33,18 +33,18 @@ Our product list was expanded to include various liquor categories including win
 ## 🍻 적용 기술 및 구현 기능
 
 구현 기능
+
 - 회원가입, 로그인 API - Jwt 인증 포함
-- 상품 필터
-- 상품 검색
+- 상품 필터 - 가격,주종,잘어울리는 음식, 원산지, 평점, 정렬 등 다양한 필터링에 관한 정보를 받아, 조건에 부합하는 상품을 정렬조건에 맞게 정렬하여 반환
+- 상품 검색 - 검색어를 포함하고 있는 카테고리 혹은 상품을 반환. 검색어가 카테고리나 상품명에 포함되지 않을 경우 추천검색어 반환
 - 리뷰 CRUD
-- 장바구니 CRUD
 
 Implemented Features
+
 - Registration API (Signup, Signin) - Jwt Authorization
 - Product Filters
 - Product Search
 - Product Reviews CRUD
-- Product Cart CRUD
 
 ### 적용기술
 
